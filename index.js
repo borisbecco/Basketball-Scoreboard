@@ -39,3 +39,9 @@ function increaseGuestScoreThree() {
   guestStoreEl.textContent = guestScore;
 }
 
+function reset() {
+  homeScore = 0;
+  homeStoreEl.textContent = homeScore;
+  guestScore = 0;
+  guestStoreEl.textContent = guestScore;
+}
